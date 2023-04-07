@@ -44,10 +44,10 @@
 		EB59215B23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		EB59215C23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
-		5B1519EA062C45A59BDFDD6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F33CF49C621B471DA4BB7865 /* GoogleService-Info.plist */; };
-		AA8F20243F40439EAADD6B03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F33CF49C621B471DA4BB7865 /* GoogleService-Info.plist */; };
-		625D4237E9B44F6C947BA485 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F2C5444B9A40E9A5B6D692 /* native_dependencies.json */; };
-		C3B0321373A44326B2FAFC69 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 11F2C5444B9A40E9A5B6D692 /* native_dependencies.json */; };
+		71205EF64D4741BDBD52DEAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47BCD39375A24E1FA5B4DCAB /* GoogleService-Info.plist */; };
+		D57C6B2208DF4AE29117B5AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47BCD39375A24E1FA5B4DCAB /* GoogleService-Info.plist */; };
+		39612E4AFE624E65B22D1395 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = EC492ACD5BE5484D89F867C2 /* native_dependencies.json */; };
+		76CB3D298EAB44DAA6357484 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = EC492ACD5BE5484D89F867C2 /* native_dependencies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,8 +102,8 @@
 		EBC80A6022DF4205007E5F3D /* config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.debug.xcconfig; sourceTree = "<group>"; };
 		EBC80A6122DF42DF007E5F3D /* config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.release.xcconfig; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F33CF49C621B471DA4BB7865 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		11F2C5444B9A40E9A5B6D692 /* native_dependencies.json */ = {isa = PBXFileReference; name = "native_dependencies.json"; path = "native_dependencies.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		47BCD39375A24E1FA5B4DCAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		EC492ACD5BE5484D89F867C2 /* native_dependencies.json */ = {isa = PBXFileReference; name = "native_dependencies.json"; path = "native_dependencies.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +149,8 @@
 				1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */,
 				2C887FD924B88A0E0003DC53 /* LaunchScreen.storyboard */,
 				2C005A7823D5B1E200003E29 /* nativeTemplate.entitlements */,
-				F33CF49C621B471DA4BB7865 /* GoogleService-Info.plist */,
-				11F2C5444B9A40E9A5B6D692 /* native_dependencies.json */,
+				47BCD39375A24E1FA5B4DCAB /* GoogleService-Info.plist */,
+				EC492ACD5BE5484D89F867C2 /* native_dependencies.json */,
 			);
 			name = NativeTemplate;
 			sourceTree = "<group>";
@@ -376,8 +376,8 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				EB55620C22E0755000E19C26 /* glyphicons-halflings-regular.ttf in Resources */,
 				1A0B3AF323990C2400388BF7 /* config.xcconfig in Resources */,
-				5B1519EA062C45A59BDFDD6E /* GoogleService-Info.plist in Resources */,
-				625D4237E9B44F6C947BA485 /* native_dependencies.json in Resources */,
+				71205EF64D4741BDBD52DEAA /* GoogleService-Info.plist in Resources */,
+				39612E4AFE624E65B22D1395 /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,8 +393,8 @@
 				1A0B3AF12399095C00388BF7 /* config.xcconfig in Resources */,
 				1A0B3AEA2398185600388BF7 /* config.debug.xcconfig in Resources */,
 				1A0B3A9C2397DA2300388BF7 /* LaunchApp.storyboard in Resources */,
-				AA8F20243F40439EAADD6B03 /* GoogleService-Info.plist in Resources */,
-				C3B0321373A44326B2FAFC69 /* native_dependencies.json in Resources */,
+				D57C6B2208DF4AE29117B5AB /* GoogleService-Info.plist in Resources */,
+				76CB3D298EAB44DAA6357484 /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
