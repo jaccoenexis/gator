@@ -134,7 +134,7 @@
             "enabled": false
         }
     },
-    "appVersion": "0.0.6",
-    "buildNumber": 6,
+    "appVersion": "7.0.0",
+    "buildNumber": 7,
     "runtimeUrl": "https://gator-sandbox.mxapps.io/"
 }
