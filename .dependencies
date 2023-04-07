@@ -1,0 +1,4 @@
+{
+    "@react-native-community/netinfo": "5.9.7",
+    "@expo/config-plugins": "5.0.4"
+}

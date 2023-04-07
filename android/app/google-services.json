@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "751968709159",
+    "project_id": "gator-464aa",
+    "storage_bucket": "gator-464aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751968709159:android:ab6b4854fc878388407c02",
+        "android_client_info": {
+          "package_name": "io.mxapps.gatorsandbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751968709159-0up8abglanglfklev6rm0uo1gutdmnmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnsaXqXaYIy_LzNYghIqqlEsV446uRq4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751968709159-0up8abglanglfklev6rm0uo1gutdmnmr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "751968709159-che46hg9ubg2cbhdjt0is954dh9p4kfq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.mxapps.gatorsandbox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
